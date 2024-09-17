@@ -8,11 +8,12 @@
 }
 
 nav{
-    background-color: #1f1f1f;
+    background-color:#323232;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 nav .logo a{
@@ -49,7 +50,7 @@ nav li a:hover{
 }
 
 .banner{
-    height: 86.47vh;
+    height: 92.1vh;
     background: linear-gradient(rgba(0,0,0,0.800),rgba(0,0,0,0.400)),url(background.jpg);
     background-size: cover;
     background-position: center;
