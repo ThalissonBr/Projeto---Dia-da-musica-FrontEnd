@@ -7,6 +7,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color:#313131;
+}
+
+
 header{
     display: flex;
     align-items: center;
@@ -87,9 +97,10 @@ hr{
     border-bottom: solid 2px rgb(102, 102, 102);
 }
 
+
 .banner{
-    height: 92vh;
-    background: linear-gradient(rgba(0,0,0,0.900),rgba(0,0,0,0.400)),url(background.jpg);
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.900),rgba(0,0,0,0.600)),url(/img/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
