@@ -7,34 +7,43 @@
     font-family: "Poppins", sans-serif;
 }
 
-nav{
-    background-color:#323232;
-    padding: 10px 60px;
+header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 60px;
+    background-color: #313131;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-nav .logo a{
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    list-style: none;
+    flex-grow: 1;
+    gap: 3.1rem;
+}
+
+header .logo a{
     text-decoration: none;
     color: white;
     font-size: 35px;
     font-weight: 600;
+    cursor: pointer;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
+
+header li{
     list-style: none;
-    padding: 10px;
 }
 
-nav li{
-    margin-left: 7px;
+header .logo{
+    margin-right: -10rem; 
 }
 
-nav li a{
+header li a{
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -44,17 +53,41 @@ nav li a{
     transition: 0.3s;
 }
 
-nav li a:hover{
+header li a:hover{
     background-color: white;
     color: black;
 }
 
+.icone{
+    margin-left: auto; /* Corrigido para garantir que o ícone esteja alinhado à direita */
+}
+
+.icone ion-icon{
+    color: #ffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.icone ion-icon:hover{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+hr{
+    border: none;
+    border-bottom: solid 0.1px rgb(102, 102, 102);
+}
+
 .banner{
     height: 92.1vh;
-    background: linear-gradient(rgba(0,0,0,0.800),rgba(0,0,0,0.400)),url(background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.900),rgba(0,0,0,0.400)),url(background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,20 +100,34 @@ nav li a:hover{
     font-weight: 600;
 }
 
+.texto .titulo2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8; 
+}
+
+
 .texto .botoes{
     margin-top: 30px;
 }
 
 .texto .botoes a{
     font-size: 30px;
-   display: inline-block;
-   padding: 10px 25px;
-   background: #1f1f1f;
-   color: white;
-   font-weight: 500;
-   text-decoration: none;
-   border-radius: 40px;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #313131;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.4s;
+}
+
+.texto .botoes a:hover{
+    background-color: white;
+    color: black;
 }
 
 
