@@ -13,10 +13,12 @@
 
 ::-webkit-scrollbar-thumb{
     width: 10px;
-    background-color:#313131;
+    background-color:#000000;
 }
 
+/*Estilizações home page e header*/
 
+/*HEADER*/
 header{
     display: flex;
     align-items: center;
@@ -89,14 +91,17 @@ header li a:hover{
     color: black;
     opacity: 1;
     transform: translateY(-5px);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
+
+/*FIM HEADER*/
 
 hr{
     border: none;
     border-bottom: solid 2px rgb(102, 102, 102);
 }
 
+/*HOME PAGE*/
 
 .banner{
     height: 100vh;
@@ -150,4 +155,4 @@ hr{
     transition: all 0.4s;
 }
 
-
+/*FIM HOMEPAGE*/
