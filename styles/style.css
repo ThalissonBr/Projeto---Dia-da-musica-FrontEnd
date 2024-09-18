@@ -46,7 +46,6 @@ header .logo a{
     cursor: pointer;
 }
 
-
 header li{
     list-style: none;
 }
@@ -118,8 +117,9 @@ hr{
 
 .texto .titulo{
     color: white;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 600;
+    word-spacing: 5px
 }
 
 .texto .titulo2{
