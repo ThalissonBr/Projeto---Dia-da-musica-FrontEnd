@@ -106,7 +106,7 @@ hr {
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.500)), url(/img/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.500)), url(background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
