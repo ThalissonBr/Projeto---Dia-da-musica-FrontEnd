@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url(style-footer.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +84,6 @@ header li a:hover {
     font-size: 1.5rem;
     cursor: pointer;
     padding: 5px;
-
 }
 
 .icone ion-icon:hover {
@@ -120,7 +121,7 @@ hr {
     color: white;
     font-size: 55px;
     font-weight: 600;
-    word-spacing: 5px
+    word-spacing: 5px;
 }
 
 .texto .titulo2 {
@@ -129,7 +130,6 @@ hr {
     font-weight: 500;
     opacity: 0.8;
 }
-
 
 .texto .botoes {
     margin-top: 30px;
@@ -157,3 +157,63 @@ hr {
 }
 
 /*FIM HOMEPAGE*/
+
+
+/* Adições para Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 10px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    header .logo {
+        margin-right: auto;
+    }
+
+    header .logo a {
+        font-size: 10px;
+    }
+
+    header li a {
+        font-size: 12px;
+    }
+
+    .banner {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .texto .titulo {
+        font-size: 36px;
+    }
+
+    .texto .titulo2 {
+        font-size: 18px;
+    }
+
+    .texto .botoes a {
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+
+    .icone ion-icon {
+        font-size: 20px;
+    }
+
+    footer .rodape {
+        padding: 30px;
+    }
+
+    footer .direitos {
+        padding: 8.6px;
+    }
+}
