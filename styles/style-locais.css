@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url(style.css);
+
+.banner2{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.800),rgba(0,0,0,0.700)),url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.locais {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 5rem;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; 
+    background-color: #323232;
+    border-radius: 15px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    word-spacing: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.conteudoLocais-e-mapa{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap:30px;
+}
+
+.map{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
