@@ -4,25 +4,25 @@
 
 /*Estilizações Footer*/
 
-footer{
+footer {
     background-color: #323232;
 }
 
-footer .rodape{
+footer .rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-.informacoes-rodape ul{
+.informacoes-rodape ul {
     display: flex;
     list-style: none;
     padding: 20px;
     gap: 30px;
 }
 
-.titulo-rodape a{
+.titulo-rodape a {
     text-decoration: none;
     color: rgb(192, 192, 192);
     font-size: 20px;
@@ -30,48 +30,49 @@ footer .rodape{
     cursor: pointer;
 }
 
-.titulo-rodape a:hover{
+.titulo-rodape a:hover {
     color: rgb(255, 255, 255);
     opacity: 1;
     transition: all 0.4s;
 }
 
-.informacoes-rodape li a{
+.informacoes-rodape li a {
     text-decoration: none;
     color: rgb(161, 161, 161);
     font-size: 18px;
     font-weight: 500;
-    
+
     border-radius: 5px;
     transition: all 0.4s;
 }
 
-.informacoes-rodape li a:hover{
+.informacoes-rodape li a:hover {
     color: rgb(255, 255, 255);
     opacity: 1;
     transition: all 0.4s;
 }
 
-.icons .icone-rodape ion-icon{
+.icons .icone-rodape ion-icon {
     color: rgb(192, 192, 192);
     font-size: 20px;
     padding: 12px;
 }
 
-.icone-rodape ion-icon:hover{
+.icone-rodape ion-icon:hover {
     border-radius: 30px;
-    
+
     color: rgb(255, 255, 255);
     opacity: 1;
     transform: translateY(-8px);
     transition: all 0.4s;
 }
-.direitos{
+
+.direitos {
     padding: 2px;
     text-align: center;
     background-color: rgb(102, 102, 102);
 }
 
-.direitos p{
+.direitos p {
     color: rgb(192, 192, 192);
 }

@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     width: 10px;
-    background-color:#000000;
+    background-color: #000000;
 }
 
 /*Estilizações home page e header*/
 
 /*HEADER*/
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,16 +29,16 @@ header{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-header ul{
+header ul {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     list-style: none;
     flex-grow: 1;
     gap: 3.1rem;
 }
 
-header .logo a{
+header .logo a {
     text-decoration: none;
     color: white;
     font-size: 35px;
@@ -46,15 +46,15 @@ header .logo a{
     cursor: pointer;
 }
 
-header li{
+header li {
     list-style: none;
 }
 
-header .logo{
-    margin-right: -10rem; 
+header .logo {
+    margin-right: -10rem;
 }
 
-header li a{
+header li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -64,7 +64,7 @@ header li a{
     transition: all 0.4s;
 }
 
-header li a:hover{
+header li a:hover {
     background-color: white;
     color: black;
     opacity: 1;
@@ -72,19 +72,20 @@ header li a:hover{
     transition: all 0.4s;
 }
 
-.icone{
-    margin-left: auto; /* Corrigido para garantir que o ícone esteja alinhado à direita */
+.icone {
+    margin-left: auto;
+    /* Corrigido para garantir que o ícone esteja alinhado à direita */
 }
 
-.icone ion-icon{
+.icone ion-icon {
     color: #ffff;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 5px;
-    
+
 }
 
-.icone ion-icon:hover{
+.icone ion-icon:hover {
     border-radius: 10px;
     background-color: white;
     color: black;
@@ -95,16 +96,16 @@ header li a:hover{
 
 /*FIM HEADER*/
 
-hr{
+hr {
     border: none;
     border-bottom: solid 2px rgb(102, 102, 102);
 }
 
 /*HOME PAGE*/
 
-.banner{
+.banner {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.900),rgba(0,0,0,0.500)),url(/img/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.500)), url(/img/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,26 +116,26 @@ hr{
     text-align: center;
 }
 
-.texto .titulo{
+.texto .titulo {
     color: white;
     font-size: 55px;
     font-weight: 600;
     word-spacing: 5px
 }
 
-.texto .titulo2{
+.texto .titulo2 {
     color: white;
     font-size: 20px;
     font-weight: 500;
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 
-.texto .botoes{
+.texto .botoes {
     margin-top: 30px;
 }
 
-.texto .botoes a{
+.texto .botoes a {
     font-size: 30px;
     display: inline-block;
     padding: 10px 25px;
@@ -147,7 +148,7 @@ hr{
     transition: 0.4s;
 }
 
-.texto .botoes a:hover{
+.texto .botoes a:hover {
     background-color: white;
     color: black;
     opacity: 1;
