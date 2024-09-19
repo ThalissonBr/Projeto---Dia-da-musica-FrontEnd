@@ -216,4 +216,13 @@ hr {
     footer .direitos {
         padding: 8.6px;
     }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background-color: #000000;
+    }
 }
