@@ -11,7 +11,7 @@ Projeto acadêmico desenvolvido com o objetivo de explorar a importância da mú
 
 <br>
 
-![Projeto-Dia-da-Musica](https://github.com/user-attachments/assets/7855e232-809b-4c75-aa79-01e0c0e13831)
+![Dia da Musica](https://github.com/user-attachments/assets/af2e3b82-5df4-45d2-b957-2da36c93de09)
 
 ## 🚀 Tecnologias
 
