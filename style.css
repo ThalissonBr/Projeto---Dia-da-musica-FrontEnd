@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     max-width: 100%;
     padding: 10px 60px;
-    background-color: #313131;
+    background-color: #323132;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -106,7 +106,7 @@ hr {
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.500)), url(background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.700)), url(background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

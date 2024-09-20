@@ -3,7 +3,7 @@
 @import url(style.css);
 @import url(style-footer.css);
 
-.banner2 {
+.banner3 {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.800)), url(background.jpg);
     background-size: cover;
@@ -17,13 +17,13 @@
     justify-content: center;
 }
 
-.locais {
+.musicas {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    margin: 0px 300px;
-    padding: 30px 40px;
+    margin: 0px 200px;
+    padding:20px;
     background-color: white;
     border-radius: 20px;
 
@@ -32,55 +32,71 @@
 .titulo {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
     background-color: #323232;
     border-radius: 15px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     word-spacing: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
-.conteudoLocais-e-mapa {
-    display: flex;
-    width: auto;
-    justify-content: space-between;
-    gap: 30px;
-    padding-top: 30px;
-}
-
-.map {
+.tituloIpanema {
+    color: white;
+    background-color: #e6d926;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 300px;
 }
 
-.conteudoLocais {
-    display: flex;
-    align-items: center;
+.musicas-player p,
+.music-playe2 P {
     text-align: justify;
-}
-
-.conteudoLocais .informacoesLocais p {
     padding-bottom: 20px;
 }
 
-.hrLocais {
-    border: none;
-    border-bottom: 2px solid #323232;
-    width: 100%;
-    margin: 20px 0;
-}
-
-.map2 {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 300px;
-}
-
-.conteudoLocais-e-mapa2 {
+.spotify {
+    width: 3px;
     display: flex;
-    width: auto;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.spotify iframe {
+    width: 500px;
+    height: 200px;
+    border: none;
+    border-radius: 12px;
+}
+
+.hrMusicas {
+    border: none;
+    border-bottom: 1px solid #323232;
+    width: 100%;
+    margin: 2px 0;
+}
+
+.tituloMasquenada {
+    color: white;
+    background-color: #70da66;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.musicas-player,
+.music-playe2 {
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 30px;
+}
+
+.musicas-player div,
+.music-playe2 div {
+    flex: 1;
+    margin-right: 0px;
 }
