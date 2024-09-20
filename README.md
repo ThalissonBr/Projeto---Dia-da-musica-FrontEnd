@@ -1,7 +1,7 @@
 <h1 align="center">Projeto Acadêmico -Dia da Música</h1>
 
 <p align="center">
-Projeto acadêmico desenvolvido com o objetivo de explorar a importância da música na cultura brasileira, celebrando o Dia da Música através de uma plataforma interativa que destaca canções e seus contextos históricos.
+Projeto acadêmico desenvolvido com o objetivo de explorar a importância da música na cultura brasileira, celebrando o Dia da Música através de uma plataforma interativa que destaca A história,locais importantes e algumas músicas brasileiras.
 </p>
 
 <p align="center">
