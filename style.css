@@ -70,8 +70,8 @@ header li a:hover {
     background-color: white;
     color: black;
     opacity: 1;
-    transform: translateY(-20px);
     transition: all 0.4s;
+    padding: 10px 25px;
 }
 
 .icone {
