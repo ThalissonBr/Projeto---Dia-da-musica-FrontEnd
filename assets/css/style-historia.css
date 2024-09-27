@@ -81,7 +81,7 @@
 /*Alteração de opacidade do blackground*/
 .banner1 {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.800)), url(background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.800)), url(../img/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
